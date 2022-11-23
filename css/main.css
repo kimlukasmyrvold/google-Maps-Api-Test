@@ -2,7 +2,7 @@
     --background-color: rgb(255,194,240);
     --background-color-gradient: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(255,194,240,1) 61%, rgba(182,220,255,1) 100%);
     --border-color: rgb(255, 233, 250);
-    --nav-color: rgba(97, 73, 91, 0.384);
+    --nav-color: rgba(255, 177, 236, 0.905);
     --text-color: rgb(24, 0, 22);
     --link-color: rgb(88, 0, 81);
 }
@@ -30,6 +30,7 @@ nav {
     height: 50px;
     width: 100vw;
     top: 0;
+    z-index: 1;
 }
 
 main {
@@ -57,7 +58,7 @@ footer {
     border-radius: 10px;
     width: 96vw;
     height: 40em;
-    margin-top: 2em;
+    margin: 2em 0;
     box-shadow: 15px 15px 70px black;
 }
 
