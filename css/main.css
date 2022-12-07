@@ -41,6 +41,7 @@ footer {
     min-height: 100px;
     width: 100vw;
     background-color: var(--nav-color);
+    z-index: 100000000;
 }
 
 
